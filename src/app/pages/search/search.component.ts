@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Fretista } from '../../interfaces/fretistas'
 import { FretistaService } from '../../_services/fretistas.service'
-
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',

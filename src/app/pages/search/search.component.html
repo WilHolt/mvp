@@ -1,3 +1,57 @@
+<div class="row">
+  <div class="col s4">
+      <mz-input-container>
+          <i mz-icon-mdi mz-input-prefix
+            [icon]="'email'">
+          </i>
+          <input mz-input
+            [label]="'Pesquisar por Nome:'"
+            [validate]="true"
+            [dataError]="'Email is invalid'"
+            [dataSuccess]="'Email is valid'"
+            id="email-input"
+            placeholder="Digitie Aqui."
+            type="email">
+        </mz-input-container>
+  </div>
+  <div class="col s3">
+    Filtrar por:
+    <mz-select-container
+    [inline]="true"
+    >
+        <select mz-select
+          id="options-select"
+          [placeholder]="'Selecione Aqui'"
+        >
+            <option class="left circle">Veiculo</option>
+            <option class="left circle">Tipo</option>
+            <option class="left circle">Reputação</option>
+            <option class="left circle">Distancia</option>
+
+        </select>
+      </mz-select-container>
+  </div>
+  <div class="col s3">
+      <mz-input-container>
+          <i mz-icon-mdi mz-input-prefix
+            [icon]="'email'">
+          </i>
+          <input mz-input
+            [label]="'Digite o veículo:'"
+            [validate]="true"
+            [dataError]="'Email is invalid'"
+            [dataSuccess]="'Email is valid'"
+            id="email-input"
+            placeholder="Digitie Aqui."
+            type="email">
+        </mz-input-container>
+  </div>
+  <div class="col s2 searchButton">
+      <a mz-button>
+          Pesquisar
+        </a>
+  </div>
+</div>
 <table >
     <thead>
       <tr>
