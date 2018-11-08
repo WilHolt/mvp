@@ -1,0 +1,32 @@
+.headerHome{
+    height: 42rem;
+    background: linear-gradient(#2196f3 , white 100%);
+    display: flex;
+    justify-content: center;
+
+}
+.contentMid{
+    position: absolute;
+    margin-top:-28rem;
+    height: 50rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.navbar-center{
+    margin-top: -3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{ 
+    display: inline;
+    padding: 1rem;
+    color: white;
+}
+h4{
+    
+    margin: 0;
+    color: white;
+}
+a{color:white;}

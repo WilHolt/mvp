@@ -1,0 +1,15 @@
+.row{
+    margin:0;
+}
+.header{
+    height: 4rem;
+}
+.sidemenu{
+    height: 77vh;
+}
+.footer{
+    height: 6rem;
+}
+ul li{
+    padding-bottom: 1rem;
+}
